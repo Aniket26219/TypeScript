@@ -1,3 +1,4 @@
-var num = 3;
-num = "aniket";
-console.log(num);
+var a;
+a = 3;
+a = "aniket";
+a = true;

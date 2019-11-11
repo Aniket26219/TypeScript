@@ -1,3 +1,4 @@
-let num = 3;
-num = "aniket";
-console.log(num);
+let a;
+a = 3;
+a = "aniket";
+a = true;
