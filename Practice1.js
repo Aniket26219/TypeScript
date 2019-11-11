@@ -1,8 +1,6 @@
-var Color;
-(function (Color) {
-    Color[Color["Red"] = 0] = "Red";
-    Color[Color["Green"] = 1] = "Green";
-    Color[Color["Blue"] = 2] = "Blue";
-})(Color || (Color = {}));
-;
-var backgroundcolor = Color.Red;
+var str;
+str = "Tony Stark";
+var endswithuse = str.endsWith('k');
+var endswithk = str.endsWith('k');
+console.log(endswithuse);
+console.log(endswithk);
