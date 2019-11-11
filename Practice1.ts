@@ -1,4 +1,2 @@
-let a : number;
-a = 3;
-a = "aniket";
-a = true;
+enum Color{Red , Green, Blue};
+let backgroundcolor=Color.Red;
