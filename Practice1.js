@@ -23,4 +23,4 @@ var Practice = /** @class */ (function () {
 var prac = new Practice();
 var getpx = prac.X;
 prac.X = 3;
-// prac.draw();
+prac.draw();

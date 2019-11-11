@@ -18,4 +18,4 @@ class Practice {
 let prac = new Practice();
 let getpx = prac.X;
 prac.X=3;
-// prac.draw();
+prac.draw();
