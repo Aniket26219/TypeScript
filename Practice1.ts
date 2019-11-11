@@ -1,5 +1,7 @@
-function example(message) {
-  console.log(message);
+function practice2(){
+    for(let i=0;i<5;i++){
+        console.log(i);
+    }
+    console.log("For the last time :-" +i)
 }
-var message = "welcome to my world";
-example(message);
+practice2();
