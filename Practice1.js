@@ -1,7 +1,3 @@
-function practice2() {
-    for (var i = 0; i < 5; i++) {
-        console.log(i);
-    }
-    console.log("For the last time :-" + i);
-}
-practice2();
+var num = 3;
+num = "aniket";
+console.log(num);
