@@ -1,10 +1,11 @@
-class Point {
-    x:number;
-    y:number;
+class Practice {
+    x : number;
+    y : number;
     draw(){
-        //..
-    }
-    getDistance(anotherPoint : Point){
-        //..
+        console.log('X = ' + this.x + ' ' + 'Y = ' + this.y)
     }
 }
+let prac = new Practice();
+prac.x = 3;
+prac.y = 5;
+prac.draw();
