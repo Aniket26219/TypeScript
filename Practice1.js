@@ -1,4 +1,7 @@
-var practice = function practice1(message) {
-    console.log(message);
+var practice = function (point) {
+    //..
 };
-var practiceav = function (message) { return console.log(message); };
+practice({
+    x: 3,
+    y: 5
+});

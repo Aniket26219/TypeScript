@@ -1,5 +1,13 @@
-let practice = function practice1(message) {
-  console.log(message);
-};
+interface Point {
+    x:number;
+    y:number;
+}
 
-let practiceav = (message) => console.log(message);
+let practice = (point:  Point) => {
+    //..
+}
+
+practice({
+    x:3,
+    y:5
+})
