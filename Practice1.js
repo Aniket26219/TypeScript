@@ -8,5 +8,5 @@ var Practice = /** @class */ (function () {
     };
     return Practice;
 }());
-var prac = new Practice(3, 5);
+var prac = new Practice();
 prac.draw();

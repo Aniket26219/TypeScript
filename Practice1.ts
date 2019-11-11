@@ -1,13 +1,10 @@
-class Practice{
-    x : number;
-    y : number;
-    constructor(x? : number, y? : number){
-        this.x=x;
-        this.y=y;
+class Practice {
+    constructor(private x? : number,private y? : number){
     }
     draw(){
         console.log('X = ' + this.x + ' ' + 'Y = ' + this.y);
     }
 }
+
 let prac = new Practice();
 prac.draw();
