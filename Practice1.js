@@ -1,6 +1,4 @@
-var str;
-str = "Tony Stark";
-var endswithuse = str.endsWith('k');
-var endswithk = str.endsWith('k');
-console.log(endswithuse);
-console.log(endswithk);
+var practice = function practice1(message) {
+    console.log(message);
+};
+var practiceav = function (message) { return console.log(message); };
