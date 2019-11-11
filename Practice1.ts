@@ -1,13 +1,10 @@
-interface Point {
+class Point {
     x:number;
     y:number;
+    draw(){
+        //..
+    }
+    getDistance(anotherPoint : Point){
+        //..
+    }
 }
-
-let practice = (point:  Point) => {
-    //..
-}
-
-practice({
-    x:3,
-    y:5
-})
