@@ -1,12 +1,12 @@
 var Practice = /** @class */ (function () {
-    function Practice() {
+    function Practice(x, y) {
+        this.x = x;
+        this.y = y;
     }
     Practice.prototype.draw = function () {
         console.log('X = ' + this.x + ' ' + 'Y = ' + this.y);
     };
     return Practice;
 }());
-var prac = new Practice();
-prac.x = 3;
-prac.y = 5;
+var prac = new Practice(3, 5);
 prac.draw();
